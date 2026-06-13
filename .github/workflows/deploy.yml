@@ -23,7 +23,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/sua-api-aspnet:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/apialunosbackendsenai:latest
 
     - name: Trigger Render Deploy
       run: |
