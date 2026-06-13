@@ -30,3 +30,4 @@ app.MapScalarApiReference(
 );
 
 app.Run();
+
